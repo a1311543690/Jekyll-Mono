@@ -9,7 +9,7 @@ tags:
 ---
 刚从ubuntu换到centos7，很多软件需要自己下载，但是centos自带的源经常收不到对应的软件和包。  
 配置软件源需要到`/etc/yum.repos.d/`目录下修改repo文件；  
-#1. 先备份原来的软件源（需要root权限)
+##1. 先备份原来的软件源（需要root权限)
 
 ```sh
 sudo mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
